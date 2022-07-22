@@ -1,0 +1,14 @@
+[package]
+name = "git-dir"
+version = "0.1.0"
+edition = "2021"
+authors = ["iuhoay <iuhoay@gmail.com>"]
+description = "Run git command in the directory."
+repository = "https://github.com/iuhoay/git-dir"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "3.2.14", features = ["derive"] }
+git2 = "0.14"
+colour = "0.6.0"
